@@ -16,6 +16,5 @@ RUN npm run build
 # Copy local code to the container image.
 COPY . ./
 
-EXPOSE 4000
 # Run the web service on container startup.
 CMD [ "node", "index.js" ]
